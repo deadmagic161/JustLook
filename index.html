@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Тестовое задание JustLook</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="src/styles/style.css">
+  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<body>
+	<div class="wrapper">
+		 	<div class="dropdown">
+		 		<div class="your-avto">
+					Выберите класс автомобиля
+				</div>	
+		 		<div class="first-class">
+		 			<span id="btn"></span>
+					<span class="selected-class">Стандарт</span>
+				</div>
+		 		<ul class="dropdown__list">
+		 			<li class="dropdown__list-item _light" data-value=10>Стандарт</li>
+		 			<li class="dropdown__list-item _medium" data-value=20>Комфорт</li>
+		 			<li class="dropdown__list-item _hard" data-value=30>Бизнес</li>
+		 		</ul>
+		 	</div>
+		 	<div class="slider-block">
+		 		<p>
+  					<label for="amount">Расстояние поездки(км):</label>
+  					<input type="text" id="amount"  style="border:0; color:#f6931f; font-weight:bold;">
+				</p>
+ 
+				<div id="slider"></div>
+		 	</div>
+		 	<div class="price">	
+		 		<div class=price__text>Ваша цена поездки</div>
+				<p class="price__count"><p>
+		 	</div>
+		</div>	
+	<script type="text/javascript" src="src/script/script.js"></script>
+</body>
+</html>
